@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAA8AEADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABAUBBgACAwf/xAAsEAACAgEEAQQCAQQDAQAAAAABAgMRBAAFEiExBhMiQVFhFDJicYEVM0Kh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABcRAQEBAQAAAAAAAAAAAAAAAAABEQL/2gAMAwEAAhEDEQA/APcdRrAb0s9Qbp/xeF7oRzyJX3FiMiw/Enk4HgdV2QLI7HnUh+XkwYePJk5c0cMEa8nkkYKqj8knwNKZ/VW0Q5cWM2SPckmkgHYADpxsGyPt0Aq+2Ghds2LKlfIm3XJMyZuOIcmIqbloFeQPXFWWm4V8WLUezbuDbcHHVlgw8eMMKbhEosfg9aQU7b6w2nPEAV5YZZpREIZUp1bgjEMATQHuIpJ6th2bBLjCzsTcIjLg5MORGDReJwwugfr9EH/BB1zydrwMlWE+HA/LiSTGLPH+nv8AVdaQbtsG4Y/LL2XKklyYcdlxosiQtwevIJPd0o4kgHiLPbWJa9ZpNsPqLE3lpIkVocmOyYJP6goP3XQaipK3ahl5AE1pzqLUsEQsxpQLJ/WqhsWPHvnqLK3fKxYCcQ+xExALEg8lJ+NHiCSrKfElMOSXq25Eogx5ZmV2EaFyqLyY0LoD7P60HsO7Rb5tGNuUEGTBHkKWWLJj4SLRI7H+v9ijqQyWWKKjLIiX45MBeuLbhhqyr/IjJbwFPL8fjx5Gh9xSB8/FXJfgntSUfcKd2n2CNB5iYqOExZedwSciJS5Hzj+yTWsXqxy67s3D4+NaV140CMlsVmMk4nx1bg7mg8J/uryOx9WPPY7DHWpddJdVTfcPJ23c8XctuMoi5u02NErv7slGgEQd8uTklmCq1NVlrtEMizRJKl8XUMLFGjoTe9zi2bacncZ4ciaPHTm0ePHzkYfoaIw8hcvEgyUSRFmjWQLIpVlBF0QfB77Gku2lW2b0m4bjnYYx5oXxSP8AtidSwsjlZXjRrqiSR3Q011U/UWG207km+YKIq0zZKJjoGlYKOILiMuLqie7pQBZGpLSyq4HJVb/IutA5mKJwUOBG4AIVyV+/0R/8P41ttm4wbgkntsFmibhPDysxuOiD+ewRY660cOhos0WSkSbbuBEZk/jMAOJRg3YDArZvuu6/XXd3pltkGRBEUypC7KAi0eio6Br8n70ZoLdN0w9rg93NyIouViNZJFQyMATxWyLPR0TmSs88Tm655u7Li7lBh/x5ZfciaSR4hyMQ5Kq2o+RBJPYBrj3pgfF6qPp3Dl3jchve5QS2hJxxJNyjB8Aoh7jYAlSfjf8Ad/Vq3Hsa02nWahTY1OpEEnp5cfLnz9tZFyRi+zio4+EBANVX/mySerJPZNAAVNw9TYssUWXt0cyLIqSTQjla8FHLyDZdiTS/FUI+w2rTrNSVGLdfVWagjj2lcSQhldnAIW44uLKSRfyeQ0R2I+JCk3onC9Nyy5jZm5ygFlVWx0laUMFoqS7AEkNZsAVS1Xy5WU+NakkAadGJAAAAFAeBqdQOxqdBf//Z"
+            alt="Logo">
+        <a href="home.ejs">Home</a>
+        <a href="Contact Us">Contact Us</a>
+        <a href="aboutus.ejs">About Us</a>
+        <div class="src">
+            <input class="srch" type="search" placeholder="Search">
+            <a href="#"><button class ="btn">Search</button></a>
+        </div>
+    </div>
+
+    <div>
+        <h1 style="margin-left:50px; margin-top: 150px;">Sign in or Register for a New User Account</h1>
+    </div>
+
+    <div class="form">
+
+        <div class="form1">
+            <form action="tables.html" method="POST">
+                <h2>Login</h2>
+                <h4>Email ID</h4>
+                <input id="email" type="email" name="email" placeholder="Email Address" required>
+                <h4>Password</h4>
+                <input id="password" type="password" placeholder="Password" required>
+                <br>
+                <br>
+                <a style="margin-left:20px; text-decoration:none;color:red;" href="Forgot Password">Forgot Password?</a>
+                <br>
+                <button id="log-in" class="btnn"><a style="text-decoration: none;" href="home.ejs">Sign In</a></button>
+
+                <h3 style="color:red;"> OR</h3>
+                <h3 style="color:rgb(7, 93, 133);">Log In With</h3>
+                <div class="icons">
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-skype"></ion-icon>
+                    </a>
+                </div>
+            </form>
+
+        </div>
+        <div class="form2">
+            <h2>New User</h2>
+            <h4>First Name</h4>
+            <input type="First Name" name="First Name" placeholder="First Name">
+            <h4>Last Name</h4>
+            <input type="Last Name" name="Last Name" placeholder="Last Name">
+            <h4>DOB(Date Of Birth)</h4>
+            <input type="date" name="DOB">
+            <h4>Email</h4>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <h4>Create Password</h4>
+            <input type="password" name="" placeholder="Create Password">
+            <h4>Conform Password</h4>
+            <input type="password" name="" placeholder="Re-Type Password">
+            <br>
+            <br>
+            <a style="margin-left:20px; text-decoration:none;color:red;" href="Forgot Password">Forgot Password?</a>
+            <br>
+            <button class="btnn"><a style="text-decoration: none;" href="home.ejs">Sign up</a></button>
+
+            <h3 style="color:red;"> OR</h3>
+            <h3 style="color:rgb(7, 93, 133) ;">Sign up With</h3>
+            <div class="icons">
+                <a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-google"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-skype"></ion-icon>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <script src="login.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>

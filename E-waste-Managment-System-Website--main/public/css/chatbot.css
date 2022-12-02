@@ -1,0 +1,132 @@
+.bot {
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    margin-left: 500px;
+    position: absolute;
+    border: solid 0.01px black;
+    display: inline-flex;
+}
+
+.upper {
+    background-color: skyblue;
+    position: absolute;
+    height: 100px;
+    width: 400px;
+}
+
+.upper h3 {
+    margin-left: 140px;
+    position: absolute;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.img2 img {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    margin-left: 17px;
+    top: 10px;
+}
+
+.mess1 img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 130px;
+    margin-left: 17px;
+}
+
+.startingbox {
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    margin-left: 65px;
+    top: 155px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px black;
+}
+
+.fa {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    left: 75%;
+    top: 25%;
+    margin-left: 10px;
+}
+
+.startingbox h4 {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.createaccount {
+    background-color: white;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 280px;
+    margin-left: 75px;
+    border-radius: 30px;
+    border: solid 5px skyblue;
+}
+
+.createaccount h4 {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.createaccount a {
+    text-decoration: none;
+    color: black;
+}
+
+.createaccount1 {
+    background-color: white;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 370px;
+    margin-left: 75px;
+    border-radius: 30px;
+    border: solid 5px skyblue;
+}
+
+.createaccount1 h4 {
+    position: absolute;
+    margin-left: 15px;
+}
+
+.createaccount1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.createaccount2 {
+    background-color: white;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 460px;
+    margin-left: 75px;
+    border-radius: 30px;
+    border: solid 5px skyblue;
+}
+
+.createaccount2 h4 {
+    position: absolute;
+    margin-left: 15px;
+}
+
+.createaccount2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa:hover {
+    color: darkblue;
+}

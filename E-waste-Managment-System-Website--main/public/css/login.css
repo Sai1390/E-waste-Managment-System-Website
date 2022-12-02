@@ -1,0 +1,203 @@
+body {
+    width: 100%;
+    background: url("https://images.designtrends.com/wp-content/uploads/2015/11/30154144/Plain-Green-Wallpaper.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+}
+
+.main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    position: absolute;
+    left: 5%;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.main a {
+    margin-left: 80px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.main a:hover {
+    transition: 0.5s;
+    color: dimgrey;
+    transform: scale(1);
+}
+
+.srch {
+    position: relative;
+    left: 220px;
+    width: 250px;
+    height: 40px;
+    background-color: beige;
+    border: 2px solid;
+    margin-top: 7px;
+    color: dimgrey;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: 1s ease;
+}
+
+.btn {
+    position: relative;
+    left: 140px;
+    width: 100px;
+    height: 40px;
+    background-color: beige;
+    border: 2px solid aquamarine;
+    margin-top: 7px;
+    color: blue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: deeppink;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form1 h2 {
+    text-align: center;
+    margin-left: 60px;
+    padding: 10px;
+    width: 150px;
+    height: 30px;
+    color: rgb(188, 135, 70);
+}
+
+.form1 {
+    display: inline-block;
+    border-style: groove;
+    border-radius: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 550px;
+    margin-left: 300px;
+}
+
+.form1 h4 {
+    margin-left: 20px;
+    color: rgb(240, 136, 9);
+}
+
+.form1 input {
+    margin-left: 20px;
+    width: 250px;
+    height: 25px;
+    background-color: beige;
+}
+
+.btn {
+    position: relative;
+    width: 85px;
+    height: 40px;
+    background-color: beige;
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.form1 h3 {
+    text-align: center;
+    color: bisque;
+}
+
+.form2 h2 {
+    text-align: center;
+    margin-left: 60px;
+    padding: 10px;
+    width: 150px;
+    height: 30px;
+    color: rgb(188, 135, 70);
+}
+
+.form2 {
+    display: inline-block;
+    border-style: groove;
+    border-radius: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 950px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.form2 h4 {
+    margin-left: 20px;
+    color: rgb(240, 136, 9);
+}
+
+.form2 input {
+    background-color: beige;
+    margin-left: 20px;
+    width: 250px;
+    height: 35px;
+}
+
+.btnn {
+    position: relative;
+    width: 85px;
+    height: 40px;
+    background-color: beige;
+    margin-left: 100px;
+    margin-top: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.btnn a {
+    transition: 0.5s ease;
+}
+
+.btnn a:hover {
+    color: rgb(184, 11, 11);
+}
+
+.form2 h3 {
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: rgba(228, 57, 57, 0.291);
+}
+
+.icons ion-icon {
+    color: rgba(22, 41, 140, 0.651);
+    font-size: 40px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #46e7b2;
+}

@@ -1,0 +1,214 @@
+body {
+    width: 100%;
+    background: url("https://wallpapercave.com/wp/wp2060686.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 220vh;
+}
+
+.main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    position: absolute;
+    left: 5%;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.main a {
+    margin-left: 80px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.main a:hover {
+    color: darkolivegreen;
+}
+
+.srch {
+    position: relative;
+    left: 130px;
+    width: 250px;
+    height: 40px;
+    background-color: beige;
+    border: 2px solid;
+    margin-top: 7px;
+    color: dimgrey;
+    float: left;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    transition: 1s ease;
+}
+
+.btn {
+    position: relative;
+    left: 70px;
+    width: 100px;
+    height: 40px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 7px;
+    color: blue;
+    font-size: 15px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: deeppink;
+}
+
+.ss1 {
+    position: absolute;
+    top: 15%;
+    left: 50px;
+    width: 64.5%;
+    height: 550px;
+    background-color: beige;
+    background: url("https://thumbs.dreamstime.com/b/diagram-waste-management-presenting-85666756.jpg");
+    border-radius: 10px;
+    display: inline-flex;
+    animation: sl 10s infinite linear;
+    animation-fill-mode: forwards;
+}
+
+.ss2 {
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    display: inline-flex;
+    width: 400px;
+    height: 380px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: url("https://th.bing.com/th/id/R.a7f74c12d2d0cfe5809856622ee5a231?rik=pygGtEPQfMKxdg&riu=http%3a%2f%2ffruitionpsychology.com.au%2fwp-content%2fuploads%2f2018%2f12%2frumi-1024x341.jpg&ehk=xKhR6IujhMRi%2fUAm5h0dO39XApKgpVDkoXImBUXS4Tc%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.sr {
+    position: absolute;
+    left: 70%;
+    top: 78%;
+    width: 400px;
+    height: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.sr h2 {
+    position: absolute;
+    left: 30%;
+    margin-top: 8px;
+}
+
+.cont1 {
+    position: relative;
+    margin-top: 47%;
+    margin-left: 4%;
+    width: 90%;
+}
+
+.cont1 p {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cont2 {
+    position: relative;
+    margin-left: 4%;
+    width: 90%;
+}
+
+.cont2 p {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.r {
+    position: relative;
+    margin-left: 4%;
+}
+
+.r img {
+    position: relative;
+    height: 500px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.feed {
+    position: relative;
+    height: 10%;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.end {
+    position: relative;
+    background-color: #2a9370;
+    position: absolute;
+    top: 315%;
+    height: 150px;
+    width: 101%;
+    left: 0px;
+    right: 0px;
+}
+
+.end a {
+    text-decoration: none;
+    margin-left: 8%;
+    margin-right: 60px;
+    display: inline-flex;
+    color: darkslategray;
+    transition: 1s ease;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.end a:hover {
+    color: #46e7b2;
+}
+
+.end h2 {
+    display: inline-flex;
+    margin-left: 10%;
+}
+
+.icons ion-icon {
+    position: relative;
+    color: black;
+    font-size: 40px;
+    padding-left: 13px;
+    padding-top: 5px;
+    transition: 1s ease;
+    margin-top: 11%;
+    left: 73%;
+}
+
+.icons ion-icon:hover {
+    color: rgb(147, 225, 225);
+}

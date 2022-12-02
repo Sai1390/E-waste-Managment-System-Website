@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .WebContainer {
+            width: 100%;
+            height: auto;
+        }
+        
+        .articles {
+            width: 90%;
+            height: auto;
+            margin: auto;
+        }
+        
+        .headingbox {
+            background-color: transparent;
+            height: 160px;
+            width: 1500px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        
+        .headingbox h3 {
+            margin-left: 220px;
+            display: inline-flex;
+            margin-top: 60px;
+            font-size: 25px;
+        }
+        
+        h3:hover {
+            transform: scale(1.1);
+            transition: 1s;
+            color: white;
+        }
+        
+        .box1 {
+            background-color: black;
+            height: 175px;
+            width: 1200px;
+            margin-top: 225px;
+            position: absolute;
+            margin-left: 100px;
+            margin-right: 200px;
+            color: white;
+            display: inline-flex;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 15px;
+            overflow: scroll;
+        }
+        
+        .box1 h5 {
+            text-align: center;
+            margin-left: 430px;
+        }
+        
+        .box1 a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .box1 p {
+            font-size: 20px;
+            margin-top: 250px;
+            padding-bottom: 100px;
+            color: white;
+            position: absolute;
+            left: 100px;
+        }
+        
+        .box2 {
+            background-color: black;
+            height: 175px;
+            width: 1200px;
+            margin-top: 475px;
+            position: absolute;
+            margin-left: 100px;
+            margin-right: 200px;
+            color: white;
+            display: inline-flex;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 15px;
+            overflow: scroll;
+        }
+        
+        .box2 h5 {
+            text-align: center;
+            margin-left: 300px;
+        }
+        
+        .box2 a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .box2 p {
+            font-size: 10px;
+            margin-top: 250px;
+            padding-bottom: 100px;
+            color: white;
+            position: absolute;
+            left: 200px;
+        }
+        
+        .box3 {
+            background-color: black;
+            height: 175px;
+            width: 1200px;
+            margin-top: 725px;
+            position: absolute;
+            margin-left: 100px;
+            margin-right: 200px;
+            color: white;
+            display: inline-flex;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 15px;
+            overflow: scroll;
+        }
+        
+        .box3 h5 {
+            text-align: center;
+            margin-left: 0px;
+            top: 0px;
+        }
+        
+        .box3 a {
+            text-decoration: none;
+            color: white;
+            position: relative;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .box3 p {
+            font-size: 10px;
+            margin-top: 250px;
+            padding-bottom: 100px;
+            color: white;
+            position: absolute;
+            left: 200px;
+        }
+        
+        .box4 {
+            background-color: black;
+            height: 175px;
+            width: 1200px;
+            margin-top: 1000px;
+            position: absolute;
+            margin-left: 100px;
+            margin-right: 200px;
+            color: white;
+            display: inline-flex;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 15px;
+            overflow: scroll;
+        }
+        
+        .box4 h5 {
+            text-align: center;
+            margin-left: 430px;
+        }
+        
+        .box4 a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .box4 p {
+            font-size: 10px;
+            margin-top: 250px;
+            padding-bottom: 100px;
+            color: white;
+            position: absolute;
+            left: 200px;
+        }
+        
+        .box5 {
+            background-color: black;
+            height: 175px;
+            width: 1200px;
+            margin-top: 1250px;
+            position: absolute;
+            margin-left: 100px;
+            margin-right: 200px;
+            color: white;
+            display: inline-flex;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 15px;
+            overflow: scroll;
+        }
+        
+        .box5 h5 {
+            text-align: center;
+            margin-left: 300px;
+        }
+        
+        .box5 a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .box5 p {
+            font-size: 10px;
+            margin-top: 250px;
+            padding-bottom: 100px;
+            color: white;
+            position: absolute;
+            left: 200px;
+        }
+        
+        .headingbox img {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            margin-left: 30px;
+            border-radius: 50px;
+            top: 20px;
+        }
+        
+        form {
+            border: none;
+        }
+        
+        select {
+            background-color: beige;
+            border: none;
+        }
+        
+        body {
+            background: url("https://ipcaworld.co.in/wp-content/uploads/2017/09/Industrial-Waste-1000x675.jpg") no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 215vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headingbox">
+        <a href="index.html"><img src="Logo.png" alt="logo"></a>
+        <a href="home.html">
+            <h3>
+                HOME
+            </h3>
+        </a>
+        <a href="aboutus.html">
+            <h3>
+                ABOUT
+            </h3>
+        </a>
+        <a href="testimonials.html">
+            <h3>
+                TESTIMONIAL
+            </h3>
+        </a>
+        <a href="profilepage.html">
+            <h3>
+                PROFILE
+            </h3>
+        </a>
+
+
+
+
+
+
+    </div>
+    <h1>
+
+    </h1>
+
+    <div class="box1">
+        <h5>
+
+            <a href="#matter1">OUR SERVICES</a>
+
+        </h5>
+        <p id="matter1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi dolor vel tenetur laborum nihil quod dicta dolorem reiciendis, illum vero. Qui, alias facere. Atque nobis, quisquam id deserunt voluptatum aspernatur.</p>
+
+
+
+    </div>
+
+    <div class="box2">
+        <h5>
+
+            <a href="#matter2">OPENESS TO CHALLENGES</a>
+
+        </h5>
+        <p id="matter2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi dolor vel tenetur laborum nihil quod dicta dolorem reiciendis, illum vero. Qui, alias facere. Atque nobis, quisquam id deserunt voluptatum aspernatur.</p>
+
+
+
+    </div>
+
+    <div class="box3">
+        <h5>
+
+            <a href="#matter3">
+            
+                Enhance the life of all assets manifold with preventive care and maintenance
+            </a>
+
+        </h5>
+        <p id="matter3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi dolor vel tenetur laborum nihil quod dicta dolorem reiciendis, illum vero. Qui, alias facere. Atque nobis, quisquam id deserunt voluptatum aspernatur.</p>
+
+
+
+    </div>
+
+    <div class="box4">
+        <h5>
+
+            <a href="#matter4">CLEAR REPORTING</a>
+
+        </h5>
+        <p id="matter4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi dolor vel tenetur laborum nihil quod dicta dolorem reiciendis, illum vero. Qui, alias facere. Atque nobis, quisquam id deserunt voluptatum aspernatur.</p>
+
+
+
+    </div>
+
+    <div class="box5">
+        <h5>
+
+            <a href="#matter5">UTMOST CLIENT SATISFACTION</a>
+
+        </h5>
+        <p id="matter5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi dolor vel tenetur laborum nihil quod dicta dolorem reiciendis, illum vero. Qui, alias facere. Atque nobis, quisquam id deserunt voluptatum aspernatur.</p>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

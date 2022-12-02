@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Complaint List</title>
+    <link rel="stylesheet" type="text/css" href="/css/complaintlist.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAA8AEADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABAUBBgACAwf/xAAsEAACAgEEAQQCAQQDAQAAAAABAgMRBAAFEiExBhMiQVFhFDJicYEVM0Kh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABcRAQEBAQAAAAAAAAAAAAAAAAABEQL/2gAMAwEAAhEDEQA/APcdRrAb0s9Qbp/xeF7oRzyJX3FiMiw/Enk4HgdV2QLI7HnUh+XkwYePJk5c0cMEa8nkkYKqj8knwNKZ/VW0Q5cWM2SPckmkgHYADpxsGyPt0Aq+2Ghds2LKlfIm3XJMyZuOIcmIqbloFeQPXFWWm4V8WLUezbuDbcHHVlgw8eMMKbhEosfg9aQU7b6w2nPEAV5YZZpREIZUp1bgjEMATQHuIpJ6th2bBLjCzsTcIjLg5MORGDReJwwugfr9EH/BB1zydrwMlWE+HA/LiSTGLPH+nv8AVdaQbtsG4Y/LL2XKklyYcdlxosiQtwevIJPd0o4kgHiLPbWJa9ZpNsPqLE3lpIkVocmOyYJP6goP3XQaipK3ahl5AE1pzqLUsEQsxpQLJ/WqhsWPHvnqLK3fKxYCcQ+xExALEg8lJ+NHiCSrKfElMOSXq25Eogx5ZmV2EaFyqLyY0LoD7P60HsO7Rb5tGNuUEGTBHkKWWLJj4SLRI7H+v9ijqQyWWKKjLIiX45MBeuLbhhqyr/IjJbwFPL8fjx5Gh9xSB8/FXJfgntSUfcKd2n2CNB5iYqOExZedwSciJS5Hzj+yTWsXqxy67s3D4+NaV140CMlsVmMk4nx1bg7mg8J/uryOx9WPPY7DHWpddJdVTfcPJ23c8XctuMoi5u02NErv7slGgEQd8uTklmCq1NVlrtEMizRJKl8XUMLFGjoTe9zi2bacncZ4ciaPHTm0ePHzkYfoaIw8hcvEgyUSRFmjWQLIpVlBF0QfB77Gku2lW2b0m4bjnYYx5oXxSP8AtidSwsjlZXjRrqiSR3Q011U/UWG207km+YKIq0zZKJjoGlYKOILiMuLqie7pQBZGpLSyq4HJVb/IutA5mKJwUOBG4AIVyV+/0R/8P41ttm4wbgkntsFmibhPDysxuOiD+ewRY660cOhos0WSkSbbuBEZk/jMAOJRg3YDArZvuu6/XXd3pltkGRBEUypC7KAi0eio6Br8n70ZoLdN0w9rg93NyIouViNZJFQyMATxWyLPR0TmSs88Tm655u7Li7lBh/x5ZfciaSR4hyMQ5Kq2o+RBJPYBrj3pgfF6qPp3Dl3jchve5QS2hJxxJNyjB8Aoh7jYAlSfjf8Ad/Vq3Hsa02nWahTY1OpEEnp5cfLnz9tZFyRi+zio4+EBANVX/mySerJPZNAAVNw9TYssUWXt0cyLIqSTQjla8FHLyDZdiTS/FUI+w2rTrNSVGLdfVWagjj2lcSQhldnAIW44uLKSRfyeQ0R2I+JCk3onC9Nyy5jZm5ygFlVWx0laUMFoqS7AEkNZsAVS1Xy5WU+NakkAadGJAAAAFAeBqdQOxqdBf//Z"
+            alt="Logo">
+        <a href="home.ejs">Home</a>
+        <a href="profile.ejs">Profile</a>
+        <div class="src">
+            <input class="srch" type="search" placeholder="Search">
+            <a href="#"><button class ="btn1">Search</button></a>
+        </div>
+    </div>
+    <div class="state">
+        <h1>Complaint List</h1>
+    </div>
+
+    <div class="table">
+        <table style="width:98%">
+            <tr>
+                <th> S/N</th>
+                <th>Complaint No</th>
+                <th>Date</th>
+                <th>Email ID</th>
+                <th>Mobile No</th>
+                <th>Category</th>
+                <th>Complaint</th>
+                <th>Complaint Status</th>
+                <th>Feedback</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>041750</td>
+                <td>16/02/2022</td>
+                <td>xyz@gmail.com</td>
+                <td>9587463894</td>
+                <td>dry waste</td>
+                <td>Not Yet cleaned near MPH</td>
+                <td>Done</td>
+                <td>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>041751</td>
+                <td>01/02/2022</td>
+                <td>xyz@gmail.com</td>
+                <td>9587463894</td>
+                <td>dry waste</td>
+                <td>Not Yet cleaned near MPH</td>
+                <td>Done</td>
+                <td>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>0417523</td>
+                <td>20/01/2022</td>
+                <td>xyz@gmail.com</td>
+                <td>9587463894</td>
+                <td>dry waste</td>
+                <td>Not Yet cleaned near MPH</td>
+                <td>Done</td>
+                <td>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>041754</td>
+                <td>10/01/2022</td>
+                <td>xyz@gmail.com</td>
+                <td>9587463894</td>
+                <td>dry waste</td>
+                <td>Not Yet cleaned near MPH</td>
+                <td>Done</td>
+                <td>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>041755</td>
+                <td>15/10/2021</td>
+                <td>xyz@gmail.com</td>
+                <td>9587463894</td>
+                <td>dry waste</td>
+                <td>Not Yet cleaned near MPH</td>
+                <td>Done</td>
+                <td>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>041756</td>
+                <td>16/9/2021</td>
+                <td>xyz@gmail.com</td>
+                <td>9587463894</td>
+                <td>dry waste</td>
+                <td>Not Yet cleaned near MPH</td>
+                <td>Done</td>
+                <td>
+                    <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                </td>
+            </tr>
+
+
+
+        </table>
+    </div>
+    <h2>Go To Home</h2>
+</body>
+
+<footer>
+    <div class="end">
+
+        <a href="Contact us">Contact Us</a>
+        <a href="Mail Us">Mail Us</a>
+        <h3>Follow Us On</h3>
+    </div>
+    <div class="icons">
+        <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-google"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-skype"></ion-icon>
+        </a>
+    </div>
+</footer>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</html>

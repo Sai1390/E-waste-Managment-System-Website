@@ -1,0 +1,329 @@
+body {
+    background-color: rgb(126, 151, 126);
+}
+
+.mainimg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0pc;
+    height: 1000px;
+    width: 1262px;
+    image-resolution: 1000px;
+    opacity: 0.6;
+}
+
+.body1 {
+    width: 800px;
+    margin-left: 200px;
+}
+
+.img1 {
+    position: absolute;
+    width: 730px;
+    height: 500px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    opacity: 100%;
+    left: 10px;
+    top: 500px;
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+.img11 {
+    background-color: lavenderblush;
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 199px;
+    border-radius: 50%;
+    height: 199px;
+    position: absolute;
+    top: 380px;
+    left: 915px;
+    box-shadow: 1px 1px 5px black;
+    image-rendering: crisp-edges;
+    transition: 0.3s;
+}
+
+.img2:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.body2 {
+    position: absolute;
+    width: 499px;
+    height: 300px;
+    background-color: lavender;
+    left: 760px;
+    top: 500px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.h51 {
+    position: relative;
+    display: inline-block;
+    margin-left: 31px;
+    top: 60px;
+}
+
+.h52 {
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
+    top: 60px;
+}
+
+.h53 {
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
+    top: 60px;
+}
+
+.verline1 {
+    position: absolute;
+    height: 71px;
+    width: 2px;
+    background-color: black;
+    left: 171px;
+    top: 63px;
+}
+
+.verline2 {
+    position: absolute;
+    height: 71px;
+    width: 2px;
+    background-color: black;
+    top: 63px;
+    left: 336px;
+}
+
+.n1 {
+    position: absolute;
+    top: 109px;
+    left: 70px;
+    font-size: 20px;
+    color: green;
+}
+
+.n2 {
+    position: absolute;
+    top: 610px;
+    left: 1000px;
+    color: green;
+    font-size: 20px;
+}
+
+.n3 {
+    position: absolute;
+    top: 600px;
+    left: 1170px;
+    color: green;
+    font-size: 20px;
+}
+
+.username {
+    position: absolute;
+    top: 0px;
+    left: 1099px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.streak {
+    position: absolute;
+    top: 670px;
+    left: 950px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: unset;
+}
+
+.myaccount {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.userinformation {
+    position: relative;
+    left: 20px;
+}
+
+.contactinfo {
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+.blank1 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 20px;
+    left: 30px;
+    border: 1px;
+}
+
+.username2 {
+    position: absolute;
+    top: 100px;
+    left: 55px;
+}
+
+.blank2 {
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 20px;
+    left: 70px;
+    display: inline-block;
+    border: 1px;
+}
+
+.blank3 {
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 38px;
+    left: 30px;
+    display: inline-block;
+    border: 1px;
+}
+
+.blank4 {
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 38px;
+    left: 70px;
+    display: inline-block;
+    border: 1px;
+}
+
+.blank5 {
+    position: relative;
+    width: 644px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 70px;
+    left: 30px;
+    display: inline-block;
+    border: 1px;
+}
+
+.blank7 {
+    position: relative;
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 90px;
+    left: 70px;
+    display: inline-block;
+    border: 1px;
+}
+
+.blank8 {
+    position: relative;
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 50px;
+    left: 270px;
+    display: inline-block;
+    border: 1px;
+}
+
+.blank9 {
+    position: relative;
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: 50px;
+    left: 299px;
+    display: inline-block;
+    border: 1px;
+}
+
+.blank10 {
+    position: relative;
+    width: 680px;
+    height: 80px;
+    background-color: white;
+    border-radius: 7px;
+    top: 900px;
+    left: 19px;
+    border: 1px;
+}
+
+.smallprofile {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 1029px;
+    box-shadow: 1px 1px 5px black;
+    image-rendering: crisp-edges;
+    transition: 0.3s;
+}
+
+.smallprofile:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.user {
+    position: absolute;
+    top: 650px;
+    left: 940px;
+    font-size: 25px;
+}
+
+.mainsearch {
+    position: absolute;
+    top: 12px;
+    height: 30px;
+    width: 230px;
+    border-radius: 5px;
+    left: 700px;
+    border: 0px;
+}
+
+.logo {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: 0px;
+}
+
+.footer2 {
+    position: absolute;
+    height: 150px;
+    background-color: rgb(126, 151, 126);
+    top: 1000px;
+    width: 550px;
+    font-size: 14px;
+    left: 500px;
+}

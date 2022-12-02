@@ -1,0 +1,166 @@
+body {
+    width: 100%;
+    background: url("https://i.pinimg.com/736x/5f/aa/09/5faa09e8d15eb175f7d325f84e6e113a.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100.5vh;
+}
+
+.main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    position: absolute;
+    left: 5%;
+}
+
+.main a {
+    margin-left: 80px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s ease ease-in-out;
+}
+
+.main a:hover {
+    color: beige;
+}
+
+.srch {
+    position: relative;
+    left: 220px;
+    width: 250px;
+    height: 40px;
+    background-color: beige;
+    border: 2px solid;
+    margin-top: 7px;
+    color: dimgrey;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: 1s ease;
+}
+
+.btn1 {
+    position: relative;
+    left: 160px;
+    width: 100px;
+    height: 40px;
+    background-color: beige;
+    border: 2px solid aquamarine;
+    margin-top: 7px;
+    color: blue;
+    font-size: 15px;
+    border-radius: 20px;
+    border: solid 1px black;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: deeppink;
+}
+
+.state {
+    position: relative;
+    top: 100px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(136, 176, 229);
+    border-radius: 15px;
+    border-color: black;
+    box-shadow: 1px 1px 10px;
+}
+
+.state h1 {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.table {
+    position: relative;
+    top: 150px;
+    height: 500px;
+    width: 100%;
+    background-color: darkcyan;
+    border-radius: 15px;
+    border: solid rgb(78, 72, 72);
+    overflow: scroll;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: beige;
+}
+
+.rating {
+    cursor: pointer;
+}
+
+.rating:hover {
+    transform: scale(1.1);
+}
+
+.end {
+    background-color: rgb(54, 120, 96);
+    position: absolute;
+    top: 120%;
+    height: 110px;
+    width: 100%;
+    left: 0px;
+}
+
+.end a {
+    text-decoration: none;
+    margin-left: 80px;
+    display: inline-flex;
+    color: rgb(63, 204, 188);
+    transition: 1s ease;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.end a:hover {
+    color: aquamarine;
+}
+
+.end h3 {
+    display: inline-flex;
+    margin-left: 55%;
+}
+
+.icons {
+    margin-left: 80%;
+}
+
+.icons ion-icon {
+    position: relative;
+    margin-top: 62%;
+    color: #64ceaa;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 2px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.icons ion-icon:hover {
+    color: rgba(22, 41, 140, 0.651);
+}

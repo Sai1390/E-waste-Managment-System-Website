@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Page</title>
+    <style>
+        body {
+            width: 100%;
+            background: url("https://wallpaperaccess.com/full/1963792.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 130vh;
+        }
+        
+        .main {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 80px;
+            width: 100%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main img {
+            position: absolute;
+            left: 5%;
+            top: 10px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        
+        .main a {
+            margin-left: 80px;
+            display: inline-block;
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            transition: 0.5s ease ease-in-out;
+        }
+        
+        .main a:hover {
+            color: beige;
+        }
+        
+        .srch {
+            position: relative;
+            left: 220px;
+            width: 250px;
+            height: 40px;
+            background-color: beige;
+            border: 2px solid;
+            margin-top: 7px;
+            color: dimgrey;
+            float: left;
+            padding: 10px;
+            border-bottom-right-radius: 5px;
+            border-top-left-radius: 5px;
+            transition: 1s ease;
+        }
+        
+        .btn {
+            position: relative;
+            left: 160px;
+            width: 100px;
+            height: 40px;
+            background-color: beige;
+            border: 2px solid aquamarine;
+            margin-top: 7px;
+            color: blue;
+            font-size: 15px;
+            border-radius: 20px;
+            border: solid 1px black;
+            transition: 1s ease;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            color: deeppink;
+        }
+        
+        .state {
+            position: relative;
+            top: 100px;
+        }
+        
+        .state h1 {
+            margin-left: 100px;
+        }
+        
+        .backgroundform {
+            position: absolute;
+            top: 195px;
+            left: 109px;
+            width: 650px;
+            height: 650px;
+            background-color: thistle;
+            opacity: 40%;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        
+        .form {
+            position: relative;
+            top: 115px;
+            left: 100px;
+            width: 650px;
+            height: 650px;
+            border-radius: 10px;
+            background-color: transparent;
+            border: solid 1px black;
+            display: inline-block;
+        }
+        
+        .form h2 {
+            margin-left: 40px;
+        }
+        
+        .form h4 {
+            margin-left: 90px;
+        }
+        
+        .form input {
+            margin-left: 90px;
+            width: 250px;
+            height: 35px;
+            border-bottom-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+        
+        .btn2 {
+            margin-left: 30%;
+            border-radius: 10px;
+            text-decoration: none;
+            border-color: black;
+            width: 100px;
+            height: 50px;
+            font-size: 15px;
+            color: darkslateblue;
+            background-color: beige;
+        }
+        
+        .btn2 a {
+            transition: 0.6s ease-in-out;
+        }
+        
+        .btn2 a:hover {
+            color: red;
+            transition: 0.4s;
+        }
+        
+        .q {
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 150px;
+            width: 550px;
+            height: 550px;
+            border-radius: 10px;
+            border: solid 1px black;
+            background-color: transparent;
+            display: inline-flex;
+            background: url("https://i0.wp.com/vicharoo.com/wp-content/uploads/2020/09/solid-waste-management-recycling-plastic-slogans-quotes_18.jpg?resize=600%2C600&ssl=1");
+        }
+        
+        .end {
+            background-color: rgb(34, 103, 77);
+            position: absolute;
+            top: 135%;
+            height: 100px;
+            width: 100%;
+            left: 0px;
+        }
+        
+        .end a {
+            text-decoration: none;
+            margin-left: 50px;
+            display: inline-flex;
+            color: black;
+            transition: 1s ease;
+            font-size: 25px;
+            font-weight: bold;
+            padding: 20px;
+        }
+        
+        .end a:hover {
+            color: beige;
+        }
+        
+        .end h3 {
+            display: inline-flex;
+            margin-left: 45%;
+        }
+        
+        .icons {
+            margin-left: 80%;
+        }
+        
+        .icons ion-icon {
+            position: relative;
+            top: 200px;
+            color: black;
+            font-size: 30px;
+            padding-left: 14px;
+            padding-top: 2px;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .icons ion-icon:hover {
+            color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <a href="index.html"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAA8AEADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABAUBBgACAwf/xAAsEAACAgEEAQQCAQQDAQAAAAABAgMRBAAFEiExBhMiQVFhFDJicYEVM0Kh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABcRAQEBAQAAAAAAAAAAAAAAAAABEQL/2gAMAwEAAhEDEQA/APcdRrAb0s9Qbp/xeF7oRzyJX3FiMiw/Enk4HgdV2QLI7HnUh+XkwYePJk5c0cMEa8nkkYKqj8knwNKZ/VW0Q5cWM2SPckmkgHYADpxsGyPt0Aq+2Ghds2LKlfIm3XJMyZuOIcmIqbloFeQPXFWWm4V8WLUezbuDbcHHVlgw8eMMKbhEosfg9aQU7b6w2nPEAV5YZZpREIZUp1bgjEMATQHuIpJ6th2bBLjCzsTcIjLg5MORGDReJwwugfr9EH/BB1zydrwMlWE+HA/LiSTGLPH+nv8AVdaQbtsG4Y/LL2XKklyYcdlxosiQtwevIJPd0o4kgHiLPbWJa9ZpNsPqLE3lpIkVocmOyYJP6goP3XQaipK3ahl5AE1pzqLUsEQsxpQLJ/WqhsWPHvnqLK3fKxYCcQ+xExALEg8lJ+NHiCSrKfElMOSXq25Eogx5ZmV2EaFyqLyY0LoD7P60HsO7Rb5tGNuUEGTBHkKWWLJj4SLRI7H+v9ijqQyWWKKjLIiX45MBeuLbhhqyr/IjJbwFPL8fjx5Gh9xSB8/FXJfgntSUfcKd2n2CNB5iYqOExZedwSciJS5Hzj+yTWsXqxy67s3D4+NaV140CMlsVmMk4nx1bg7mg8J/uryOx9WPPY7DHWpddJdVTfcPJ23c8XctuMoi5u02NErv7slGgEQd8uTklmCq1NVlrtEMizRJKl8XUMLFGjoTe9zi2bacncZ4ciaPHTm0ePHzkYfoaIw8hcvEgyUSRFmjWQLIpVlBF0QfB77Gku2lW2b0m4bjnYYx5oXxSP8AtidSwsjlZXjRrqiSR3Q011U/UWG207km+YKIq0zZKJjoGlYKOILiMuLqie7pQBZGpLSyq4HJVb/IutA5mKJwUOBG4AIVyV+/0R/8P41ttm4wbgkntsFmibhPDysxuOiD+ewRY660cOhos0WSkSbbuBEZk/jMAOJRg3YDArZvuu6/XXd3pltkGRBEUypC7KAi0eio6Br8n70ZoLdN0w9rg93NyIouViNZJFQyMATxWyLPR0TmSs88Tm655u7Li7lBh/x5ZfciaSR4hyMQ5Kq2o+RBJPYBrj3pgfF6qPp3Dl3jchve5QS2hJxxJNyjB8Aoh7jYAlSfjf8Ad/Vq3Hsa02nWahTY1OpEEnp5cfLnz9tZFyRi+zio4+EBANVX/mySerJPZNAAVNw9TYssUWXt0cyLIqSTQjla8FHLyDZdiTS/FUI+w2rTrNSVGLdfVWagjj2lcSQhldnAIW44uLKSRfyeQ0R2I+JCk3onC9Nyy5jZm5ygFlVWx0laUMFoqS7AEkNZsAVS1Xy5WU+NakkAadGJAAAAFAeBqdQOxqdBf//Z"
+                alt="Logo"></a>
+        <a href="home.html">Home</a>
+        <a href="profilepage.html">Profile</a>
+        <a href="aboutus.html">About Us</a>
+        <div class="src">
+            <input class="srch" type="search" placeholder="Search">
+            <a href="#"><button class ="btn">Search</button></a>
+        </div>
+    </div>
+    <div class="state">
+        <h1>We are here to assist you !</h1>
+
+    </div>
+
+    <div class="backgroundform"></div>
+    <div class="form">
+        <h2>Please complete the form below for your complaints...</h2>
+        <h4>Email ID</h4>
+        <input type="email" name="email" placeholder="Email Address">
+        <h4>Mobile No:</h4>
+        <input type="Number" name="" placeholder="Number">
+        <h4>Category:</h4>
+        <input type="Category" name="" placeholder="Category">
+        <h4>Location:</h4>
+        <input type="Location" name="" placeholder="Location">
+        <h4>The complaint is regarding:</h4>
+        <input type="Type Here..." name="" placeholder="Type Here...">
+        <br>
+        <br>
+
+        <br>
+        <button class="btn2"><a style="text-decoration: none;" href="#">SEND COMPLAINT</a></button>
+    </div>
+    <div class="q">
+
+    </div>
+
+
+
+
+
+
+</body>
+<footer>
+    <div class="end">
+        <a href="testimonials.html">Testimonials</a>
+        <a href="Contact Us">Contact Us</a>
+        <a href="Activities">Activities</a>
+
+        <h3>Follow Us On</h3>
+    </div>
+    <div class="icons">
+        <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-google"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon name="logo-skype"></ion-icon>
+        </a>
+    </div>
+</footer>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</html>
